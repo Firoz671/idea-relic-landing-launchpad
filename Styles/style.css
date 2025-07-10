@@ -6,7 +6,7 @@
     font-size: 16px;
     background-color: #4E47FF;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     color: #FFFFFF;
 }
 /* Shared Font */
@@ -81,4 +81,53 @@ header section button{
 header section button:hover{
     background-color: black;
     transition-duration: 0.5s;
+}
+
+/* Main */
+main{
+    
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Action Section */
+
+main section .action-left .action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+main section .action-left .action-description{
+    margin-top: 23px;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+
+main section .action-left button{
+    margin-top: 23px;
+    width: 229px;
+    height: 48px;
+}
+main section .action-left button:hover{
+    background-color: black;
+    transition-duration: 0.5s;
+}
+main section .action-right img{
+    width: 100%;
+    border-radius: 48px;
+}
+
+.action-left{
+    width: 516px;
+    margin: 62.5px 0;
+
+}
+
+main .action-section{
+    margin-top: 116px;   
+    /* background-color: #F5F8FF; */
+    width: 100%;
+    height: 328px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
