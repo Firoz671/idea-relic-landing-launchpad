@@ -1,0 +1,84 @@
+/* Shared Colors */
+.primary-blue{
+    color: #4E47FF;
+}
+.primary-bg-blue{
+    font-size: 16px;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+/* Shared Font */
+.inter{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.raleway{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header Section */
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    background-size: cover;
+    height: 698px;
+}
+
+header nav{
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header nav .logo{
+    font-size: 34px;
+    font-weight: 800;
+    
+    
+}
+
+header nav button{
+    padding: 12px 36px;
+    
+}
+header nav button:hover{
+    background-color: black;
+    transition-duration: 0.5s;
+}
+
+/* Hero */
+
+header section{
+    padding: 158px 267px;
+    width: 905px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+header section .hero-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 65px;
+}
+header section button{
+    margin-top: 37px;
+    width: 174px;
+    height: 48px;
+}
+
+header section button:hover{
+    background-color: black;
+    transition-duration: 0.5s;
+}
