@@ -218,3 +218,38 @@ main .action-section{
     display: flex;
     gap: 20px;
 }
+
+
+
+/* Focus Section */
+
+.focus-section{
+    margin-top: 137px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 71px;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
+}
+.focus-section img{
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+}
+
+.info{
+    color: #777474;
+}
+
+.focus-section button{
+    width: 195px;
+    height: 48px;
+}
+.focus-section button:hover{
+    background-color: black;
+    transition-duration: 0.5s;
+}
