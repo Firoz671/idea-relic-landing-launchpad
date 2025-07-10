@@ -253,3 +253,48 @@ main .action-section{
     background-color: black;
     transition-duration: 0.5s;
 }
+
+
+/* Form */
+.form-section .form-left{
+    font-size: 70.1px;
+    font-weight: 700;
+}
+
+.form-section{
+    height: 632px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-left{
+    width: 40%;
+}
+form{
+    display: flex;
+    gap: 19px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form input,textarea{
+    padding: 0 10px 0 29px;
+    font-size: 20px;
+    width: 497px;
+    height: 70px;
+    border-radius: 5px;
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #E5E9F3;
+}
+
+.form-right label{
+    font-weight: 500;
+}
+
+.form-right button{
+    padding: 0 10px 0 29px;
+    margin: 0 auto;
+    width: 500px;
+    height: 62px;
+}
