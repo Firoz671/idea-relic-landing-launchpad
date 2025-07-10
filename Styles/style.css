@@ -233,7 +233,7 @@ main .action-section{
     gap: 20px;
     padding: 71px;
     border-radius: 14px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 .focus-section img{
     width: 840px;
