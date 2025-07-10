@@ -277,11 +277,20 @@ form{
     justify-content: center;
 }
 
-form input,textarea{
+form input{
     padding: 0 10px 0 29px;
     font-size: 20px;
     width: 497px;
     height: 70px;
+    border-radius: 5px;
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #E5E9F3;
+}
+
+form textarea{
+    padding: 0 10px 0 29px;
+    font-size: 20px;
     border-radius: 5px;
     
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -298,3 +307,55 @@ form input,textarea{
     width: 500px;
     height: 62px;
 }
+
+.form-right button:hover{
+    background-color: black;
+    transition-duration: 1s;
+}
+
+
+/* Footer Section */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 428px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 531px;
+    height: 221px;
+    padding: 104px 455px;
+}
+.footer-logo{
+    font-size: 100px;
+}
+.footer-text{
+    line-height: 25px;
+    color: #6f6e82;
+}
+footer ul{
+    display: flex;
+    gap: 48px;
+}
+footer ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+footer ul li a{
+    
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: #6f6e82;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: #4E47FF;;
+    
+}
+
