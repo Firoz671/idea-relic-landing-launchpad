@@ -131,3 +131,37 @@ main .action-section{
     justify-content: space-between;
     align-items: center;
 }
+
+/* Productive User Section */
+.productive-user-section{
+    margin-top: 116px;
+    border-radius: 24px;
+    background-color: #e5e7ffd5;
+    height: 306px;
+}
+.user-box{
+    padding: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-data{
+    margin: 30px;
+    display: flex;
+    gap: 158px;
+}
+.user-title{
+    color: #252432;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.user-h{
+    font-size: 80px;
+    font-weight: 700;
+}
+.user-d{
+    text-align: center;
+    color: rgba(37, 36, 50, 0.5);
+}
